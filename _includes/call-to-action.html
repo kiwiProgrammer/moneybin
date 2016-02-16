@@ -1,10 +1,22 @@
-<aside class="call-to-action bg-primary">
+<aside id="call-to-action" class="call-to-action bg-primary">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center">
-        <h3>The buttons below are impossible to resist.</h3>
-        <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-        <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+      <div class="col-lg-12 text-center" id="contactContainer">
+        <h3>Interested? Sign Up and show you your interest!</h3>
+        <form class="form-horizontal" id="contactForm" action="">
+            <div class="form-group">
+                <p class="lead">Name:
+                <input type="text" name="name"></p>
+            </div>
+            <div class="form-group">
+                <p class="lead">Email: <input type="email" name="_replyto"></p>
+                <input id="submitBtn" type="button" class="btn btn-lg btn-success" value="Send">
+            </div>
+        </form>
+      </div>
+      <div class="col-lg-12 text-center" id="thanksContainer" hidden>
+          <h3>Thanks for signing up!</h3>
+          <p class="lead">A representative will contact you shortly!</p>
       </div>
     </div>
   </div>

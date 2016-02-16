@@ -5,4 +5,15 @@
 <script src="js/bootstrap.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="js/custom.js"></script> 
+<script src="js/custom.js"></script>
+
+<script type="text/javascript">
+    $("#submitBtn").bind("click", function() {
+        $.post("https://formspree.io/cheahkw@stanford.edu", $("#contactForm").serialize());
+        $("#contactContainer").fadeOut("fast", function() {
+            $("#thanksContainer").fadeIn("fast", function() {
+
+            })
+        })
+    })
+</script>
