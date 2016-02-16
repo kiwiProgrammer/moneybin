@@ -226,6 +226,10 @@ hr.small {
     height: 500px;
 }
 
+input {
+    color: #000000
+}
+
 @media(max-width:768px) {
     .map {
         height: 75%;
